@@ -1,0 +1,230 @@
+Create a modern multilingual website as a digital museum-style environmental exhibition dedicated to the ancient oak trees of the Chubynske landscape reserve in Ukraine.
+
+Project title:
+“Ancient Oaks of Chubynske: Living Biocultural Heritage of the Middle Dnipro Forest-Steppe”
+
+The website should feel like a curated digital exhibition rather than a typical ecological information portal or standard photo gallery.
+
+MAIN CONCEPT:
+The project presents ancient oak trees as living elements of biocultural heritage and surviving fragments of historical forest-steppe landscapes near Kyiv. The experience should communicate silence, depth of time, natural memory, and the fragile persistence of historical landscapes under anthropogenic pressure.
+
+The emotional atmosphere is calm, contemplative, elegant, and immersive.
+
+The website must combine:
+- museum exhibition aesthetics
+- scientific environmental storytelling
+- minimalist editorial design
+- immersive visual presentation
+
+The primary focus is photography.
+
+Do NOT overload the website with text, scientific data, statistics, maps, buttons, or complex interface elements.
+
+The website should feel premium, atmospheric, and visually clean.
+
+LANGUAGES:
+Implement full multilingual support with language switcher:
+- English (main/default language)
+- Ukrainian
+- Czech
+
+The language switcher should be minimalist and positioned in the top navigation.
+
+VISUAL STYLE:
+- editorial / museum minimalism
+- large cinematic photography
+- lots of white space
+- calm natural aesthetics
+- soft transitions and slow scrolling
+- elegant typography
+- no aggressive animations
+- no bright colors
+- no corporate/startup feeling
+- no eco-activist visual clichés
+
+COLOR PALETTE:
+Use warm natural tones:
+- warm off-white backgrounds (#F5F2EC or similar)
+- deep graphite text instead of pure black
+- muted forest green accents
+- warm wood-brown details
+- subtle earthy tones
+
+The website should look beautiful with photography from different seasons:
+spring, summer, autumn, and winter.
+
+TYPOGRAPHY:
+Headings:
+- elegant editorial serif style
+- similar to Cormorant Garamond, Canela, or EB Garamond
+
+Body text:
+- clean modern sans-serif
+- similar to Inter, Manrope, or Suisse Intl
+
+Typography should feel refined, academic, and contemporary.
+
+LAYOUT:
+The site should work perfectly on both desktop and mobile devices.
+
+The mobile version is extremely important.
+
+Use:
+- full-width photography
+- vertical scroll storytelling
+- cinematic spacing
+- minimalist navigation
+- smooth transitions between sections
+
+Avoid:
+- crowded grids
+- tiny thumbnails
+- heavy menus
+- card overload
+- dashboard aesthetics
+
+SITE STRUCTURE:
+
+1. HERO SECTION (Landing Page)
+- full-screen photograph of the most powerful ancient oak
+- project title
+- short subtitle (1–2 lines maximum)
+- subtle scroll indicator
+- minimalist top navigation
+
+The hero section must create emotional immersion immediately.
+
+Do NOT use sepia or vintage effects.
+Use natural colors and authentic lighting.
+
+2. SHORT INTRODUCTION SECTION
+Very concise text only.
+
+Maximum:
+2–3 short paragraphs.
+
+Topics:
+- ancient oak trees
+- living biocultural heritage
+- preserved fragments of historical forest-steppe landscapes
+- environmental and cultural significance
+
+Tone:
+scientific but poetic and restrained.
+
+3. MAIN EXHIBITION / GALLERY
+This is the core of the website.
+
+Create a slow immersive gallery experience.
+
+Presentation style:
+- large photographs
+- one image dominates the screen at a time
+- breathing space between images
+- vertical scrolling narrative
+- minimalist transitions
+
+The gallery should feel like walking through a digital exhibition.
+
+Do NOT create:
+- dense photo grids
+- Pinterest-like layouts
+- commercial portfolio aesthetics
+
+Photographs:
+- approximately 10–15 main hero images
+- optional additional archive section
+
+Photo captions:
+Keep extremely minimal.
+
+Optional:
+very short atmospheric phrases between sections.
+
+Examples:
+“Fragments of a living landscape”
+“Old-growth forest memory”
+“Biocultural continuity”
+
+
+
+AUTHORSHIP:
+Every photograph must contain a very subtle photographer credit directly on the image in a lower corner.
+
+Format examples:
+© Oksana Shcherbak, 2026
+© O.S., 2026
+
+The credit should be elegant, discreet, and unobtrusive.
+
+4. LANDSCAPE CONTEXT SECTION
+A small atmospheric section with:
+- several supporting landscape images
+- short text about the Middle Dnipro forest-steppe
+- mention anthropogenic pressure near urbanized areas
+
+Keep the text concise.
+
+5. PAVLO CHUBYNSKYI SECTION
+Minimal cultural context section.
+
+Do NOT create a full biography.
+
+Focus on:
+- symbolic connection between landscape, memory, and identity
+- cultural significance of the territory
+- historical and intellectual context
+
+Include:
+- one portrait or historical image if available
+- very short text (4–6 sentences maximum)
+
+6. ACKNOWLEDGEMENTS SECTION
+Minimalist section with:
+- gratitude to Czech partners/supporters
+- mention of initial project support
+- optional institutional logos
+
+Keep visually subtle and elegant.
+
+7. FOOTER
+Include:
+- institution name
+- project credits
+- FoPD 2026 reference
+- optional social links
+
+UX PRINCIPLES:
+The entire website should feel like:
+- a contemplative digital environmental exhibition
+- a slow visual narrative
+- an atmospheric museum experience
+
+The user should feel:
+- immersion
+- silence
+- continuity of time
+- fragility and value of preserved landscapes
+
+IMPORTANT:
+Less text, more atmosphere.
+Less interface, more visual storytelling.
+Less information density, more emotional and aesthetic impact.
+
+The website should communicate scientific and cultural value through visual experience rather than through large amounts of explanatory text.
+
+The final result should feel contemporary, elegant, internationally presentable, and suitable for environmental humanities, museum presentation, or international cultural-scientific initiatives.
+
+
+Avoid looking like:
+- a commercial photography portfolio
+- a startup landing page
+- a scientific database
+- a tourism website
+- an NGO environmental campaign page
+
+The website should instead resemble:
+- a contemporary digital museum exhibition
+- a visual environmental humanities project
+- a curated nature art-science experience
+

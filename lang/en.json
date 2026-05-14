@@ -1,0 +1,56 @@
+{
+  "nav.exhibition": "Exhibition",
+  "nav.landscape": "Landscape",
+  "nav.heritage": "Heritage",
+  "nav.about": "About",
+
+  "hero.title": "Ancient Oaks of Chubynske",
+  "hero.subtitle": "Living Biocultural Heritage of the Middle Dnipro Forest-Steppe",
+  "hero.scroll": "Scroll to explore",
+
+  "intro.heading": "Fragments of a Living Landscape",
+  "intro.p1": "In the heart of Ukraine's forest-steppe, ancient oak trees stand as silent witnesses to centuries of ecological and cultural transformation. These monumental organisms — some over 300 years old — are surviving fragments of historical landscapes that once defined the Middle Dnipro region.",
+  "intro.p2": "The Chubynske landscape reserve preserves one of the last concentrations of old-growth oaks near Kyiv, offering a rare glimpse into the biocultural heritage of a territory shaped by both nature and human memory.",
+  "intro.p3": "This exhibition invites contemplation of time, persistence, and the fragile continuity of landscapes that exist between the deep past and an uncertain future.",
+
+  "gallery.heading": "The Exhibition",
+  "gallery.phrase1": "Fragments of a living landscape",
+  "gallery.phrase2": "Old-growth forest memory",
+  "gallery.phrase3": "Biocultural continuity",
+  "gallery.phrase4": "Silence between centuries",
+  "gallery.phrase5": "Roots of persistence",
+
+  "gallery.cap1": "Ancient oak in winter light",
+  "gallery.cap2": "Crown reaching through morning fog",
+  "gallery.cap3": "Bark texture — centuries of growth",
+  "gallery.cap4": "Autumn canopy, Chubynske reserve",
+  "gallery.cap5": "Root system of a 300-year-old oak",
+  "gallery.cap6": "Spring awakening — first leaves",
+  "gallery.cap7": "Solitary oak in the meadow",
+  "gallery.cap8": "Winter silhouette against grey sky",
+  "gallery.cap9": "Branches intertwining — forest dialogue",
+  "gallery.cap10": "Late summer, golden hour light",
+  "gallery.cap11": "Moss and lichen on ancient bark",
+  "gallery.cap12": "The oldest oak of the reserve",
+
+  "landscape.heading": "The Middle Dnipro Forest-Steppe",
+  "landscape.p1": "The forest-steppe of the Middle Dnipro region represents one of Europe's most historically significant transitional landscapes. For millennia, it has existed at the boundary between open steppe and deciduous woodland — a zone of extraordinary biodiversity and cultural significance.",
+  "landscape.p2": "Today, these landscapes face growing anthropogenic pressure from the expanding urbanization of the Kyiv metropolitan area. The ancient oaks of Chubynske exist within a fragile ecological corridor, surrounded by agricultural land and suburban development.",
+
+  "landscape.cap1": "Forest-steppe panorama near Chubynske",
+  "landscape.cap2": "Meadow edge — transition zone",
+  "landscape.cap3": "Dawn over the reserve",
+
+  "chubynskyi.heading": "Pavlo Chubynskyi & the Memory of Landscape",
+  "chubynskyi.p1": "The territory of the reserve bears the name of Pavlo Chubynskyi (1839–1884) — ethnographer, poet, and author of the words that became Ukraine's national anthem. His intellectual legacy is inseparable from the landscapes of this region.",
+  "chubynskyi.p2": "Chubynskyi understood the deep connection between land, language, and identity. The ancient oaks that still stand in this territory serve as living symbols of the cultural continuity he sought to preserve — a continuity that extends through nature, memory, and belonging.",
+
+  "ack.heading": "Acknowledgements",
+  "ack.p1": "This project was realized with the support of Czech academic partners and institutions dedicated to environmental humanities and biocultural heritage research.",
+  "ack.p2": "We extend our gratitude to all who contributed to the initial documentation, research, and presentation of this project.",
+
+  "footer.institution": "Department of Environmental Studies",
+  "footer.credits": "A digital exhibition project",
+  "footer.reference": "FoPD 2026",
+  "footer.copyright": "© 2026 All rights reserved"
+}

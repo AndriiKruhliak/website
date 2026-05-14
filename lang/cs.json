@@ -1,0 +1,56 @@
+{
+  "nav.exhibition": "Výstava",
+  "nav.landscape": "Krajina",
+  "nav.heritage": "Dědictví",
+  "nav.about": "O projektu",
+
+  "hero.title": "Prastaré duby Čubynského",
+  "hero.subtitle": "Živé biokulturní dědictví středodněperské lesostepě",
+  "hero.scroll": "Scrollujte a prozkoumejte",
+
+  "intro.heading": "Fragmenty živé krajiny",
+  "intro.p1": "V srdci ukrajinské lesostepě stojí prastaré duby jako tiší svědci staletí ekologických a kulturních proměn. Tyto monumentální organismy — některým je přes 300 let — jsou přežívajícími fragmenty historických krajin, které kdysi definovaly oblast Středního Podněpří.",
+  "intro.p2": "Krajinná rezervace Čubynske uchovává jednu z posledních koncentrací starých dubů v blízkosti Kyjeva a nabízí vzácný pohled na biokulturní dědictví území utvářeného přírodou i lidskou pamětí.",
+  "intro.p3": "Tato výstava zve k rozjímání o čase, vytrvalosti a křehké kontinuitě krajin existujících mezi hlubokou minulostí a nejistou budoucností.",
+
+  "gallery.heading": "Výstava",
+  "gallery.phrase1": "Fragmenty živé krajiny",
+  "gallery.phrase2": "Paměť prastarého lesa",
+  "gallery.phrase3": "Biokulturní kontinuita",
+  "gallery.phrase4": "Ticho mezi staletími",
+  "gallery.phrase5": "Kořeny vytrvalosti",
+
+  "gallery.cap1": "Prastarý dub v zimním světle",
+  "gallery.cap2": "Koruna prorážející ranní mlhou",
+  "gallery.cap3": "Textura kůry — staletí růstu",
+  "gallery.cap4": "Podzimní koruna, rezervace Čubynske",
+  "gallery.cap5": "Kořenový systém 300letého dubu",
+  "gallery.cap6": "Jarní probuzení — první listy",
+  "gallery.cap7": "Osamělý dub na louce",
+  "gallery.cap8": "Zimní silueta proti šedé obloze",
+  "gallery.cap9": "Propletené větve — lesní dialog",
+  "gallery.cap10": "Pozdní léto, zlatá hodina",
+  "gallery.cap11": "Mech a lišejník na prastaré kůře",
+  "gallery.cap12": "Nejstarší dub rezervace",
+
+  "landscape.heading": "Středodněperská lesostep",
+  "landscape.p1": "Lesostep Středního Podněpří představuje jednu z historicky nejvýznamnějších přechodových krajin Evropy. Po tisíciletí existovala na hranici otevřené stepi a listnatých lesů — zóna mimořádné biodiverzity a kulturního významu.",
+  "landscape.p2": "Dnes tyto krajiny čelí rostoucímu antropogennímu tlaku způsobenému rozšiřující se urbanizací kyjevské metropolitní oblasti. Prastaré duby Čubynského existují v křehkém ekologickém koridoru obklopeném zemědělskou půdou a předměstskou zástavbou.",
+
+  "landscape.cap1": "Panorama lesostepě u Čubynského",
+  "landscape.cap2": "Okraj louky — přechodová zóna",
+  "landscape.cap3": "Úsvit nad rezervací",
+
+  "chubynskyi.heading": "Pavlo Čubynskyj a paměť krajiny",
+  "chubynskyi.p1": "Území rezervace nese jméno Pavla Čubynského (1839–1884) — etnografa, básníka a autora slov, jež se stala ukrajinskou národní hymnou. Jeho intelektuální odkaz je neoddělitelný od krajin tohoto regionu.",
+  "chubynskyi.p2": "Čubynskyj chápal hluboké spojení mezi zemí, jazykem a identitou. Prastaré duby, které dodnes stojí na tomto území, slouží jako živé symboly kulturní kontinuity, kterou usiloval zachovat — kontinuity procházející přírodou, pamětí a sounáležitostí.",
+
+  "ack.heading": "Poděkování",
+  "ack.p1": "Tento projekt byl realizován s podporou českých akademických partnerů a institucí věnujících se výzkumu environmentální humanitní vědy a biokulturního dědictví.",
+  "ack.p2": "Děkujeme všem, kteří přispěli k počáteční dokumentaci, výzkumu a prezentaci tohoto projektu.",
+
+  "footer.institution": "Katedra environmentálních studií",
+  "footer.credits": "Projekt digitální výstavy",
+  "footer.reference": "FoPD 2026",
+  "footer.copyright": "© 2026 Všechna práva vyhrazena"
+}
