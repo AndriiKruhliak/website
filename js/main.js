@@ -1,5 +1,5 @@
 /**
- * main.js — Scroll animations, navigation, and gallery behavior
+ * main.js — Scroll animations, navigation, gallery behavior, and carousel
  * Ancient Oaks of Chubynske exhibition
  */
 
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   revealElements.forEach(el => revealObserver.observe(el));
 
   // --- Hero parallax (subtle) ---
-  const heroImage = document.querySelector('.hero__image');
-  if (heroImage) {
+  const heroImage = document.querySelector('.hero__image img');
+  if (heroImage && heroSection) {
     let ticking = false;
     window.addEventListener('scroll', () => {
       if (!ticking) {
@@ -115,4 +115,22 @@ document.addEventListener('DOMContentLoaded', async () => {
       scrollIndicator.style.opacity = window.scrollY > 100 ? '0' : '';
     }, { passive: true });
   }
+
+  // --- Image lazy-load fade-in effect ---
+  const lazyImages = document.querySelectorAll('.gallery__photo img, .landscape__photo img, .chubynskyi__photo img');
+  lazyImages.forEach(img => {
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 0.8s ease';
+
+    if (img.complete) {
+      img.style.opacity = '1';
+    } else {
+      img.addEventListener('load', () => {
+        img.style.opacity = '1';
+      });
+      img.addEventListener('error', () => {
+        img.style.opacity = '0.5';
+      });
+    }
+  });
 });
