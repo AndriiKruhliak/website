@@ -7,22 +7,25 @@
   "hero.title": "Ancient Oaks of Chubynske",
   "hero.subtitle": "Living Biocultural Heritage of the Middle Dnipro Forest-Steppe",
   "hero.scroll": "Scroll to explore",
+  "hero.credit": "Dr. Andrii Kruhliak, film photography in original form, 2025",
 
   "intro.heading": "Fragments of a Living Landscape",
   "intro.p1": "The nationally significant landscape reserve \"Khutir Chubynskoho\" is located in the village of Chubynske, Boryspil district, Kyiv region, just 15 km from Kyiv. Established in 1994, the reserve encompasses a unique area of old-growth oak grove — one of the few surviving fragments of the historical forest-steppe landscape of the Middle Dnipro region.",
   "intro.p2": "The ancient oaks, approximately 200–300 years old, are living witnesses to the natural and cultural history of this territory. They have survived under intense anthropogenic pressure and rapid urbanization around Kyiv, remaining vital elements of the region's biocultural heritage.",
   "intro.p3": "Since 1975, the Institute of Animal Breeding and Genetics named after M.V. Zubets of NAAS has been operating in the village of Chubynske. The institute's scientists support initiatives in environmental education and promotion of the reserve's natural heritage, fostering ecological awareness and attention to the preservation of local natural landscapes.",
 
+  "snail.caption": "At nature's pace — without haste",
+
   "gallery.heading": "The Exhibition",
 
   "carousel.spring": "Spring beneath the ancient crowns",
   "carousel.springCredit": "© Dr. Oksana Shcherbak, Prof. Svitlana Kovtun — Spring 2025",
   "carousel.summer": "The summer silence of the primeval oak grove",
-  "carousel.summerCredit": "© Yuliia Kruhliak — Summer 2025",
+  "carousel.summerCredit": "© Dr. Andrii Kruhliak, Yuliia Kruhliak — Summer 2025",
   "carousel.autumn": "Autumn light of warm gold",
-  "carousel.autumnCredit": "© Yuliia Kruhliak — Autumn 2025",
+  "carousel.autumnCredit": "© Dr. Andrii Kruhliak, Yuliia Kruhliak — Autumn 2025",
   "carousel.winter": "Winter graphics of oak silhouettes",
-  "carousel.winterCredit": "© Yuliia Kruhliak — Winter 2025–2026",
+  "carousel.winterCredit": "© Dr. Andrii Kruhliak, Yuliia Kruhliak — Winter 2025–2026",
 
   "measurements.credit": "© Dr. Oksana Shcherbak, Prof. Svitlana Kovtun",
 
@@ -53,9 +56,10 @@
   "footer.coordination": "Project coordination",
   "footer.coordinator": "Dr. Oksana Shcherbak",
   "footer.photoLabel": "Photography",
-  "footer.photo1": "© Yuliia Kruhliak, 2025–2026",
-  "footer.photo2": "© Dr. Andrii Kruhliak, 2025–2026",
-  "footer.photo3": "© Dr. Oksana Shcherbak, 2025–2026",
-  "footer.photo4": "© Prof. Svitlana Kovtun, 2025–2026",
+  "footer.photo1": "© Prof. Svitlana Kovtun, 2025–2026",
+  "footer.photo2": "© Dr. Oksana Shcherbak, 2025–2026",
+  "footer.photo3": "© Dr. Andrii Kruhliak, 2025–2026",
+  "footer.photo4": "© Yuliia Kruhliak, 2025–2026",
+  "footer.authentic": "The exhibition is based on authentic photographs without digital intervention",
   "footer.copyright": "© 2026"
 }

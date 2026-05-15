@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (scrollInd) window.addEventListener('scroll', () => { scrollInd.style.opacity = window.scrollY > 100 ? '0' : ''; }, { passive: true });
 
   // --- Image lazy fade-in ---
-  document.querySelectorAll('.landscape__photo img, .chubynskyi__photo img, .chubynskyi__khutir-photo img, .measurements__photo img, .extra-photos__photo img').forEach(img => {
+  document.querySelectorAll('.landscape__photo img, .chubynskyi__photo img, .chubynskyi__khutir-photo img, .measurements__photo img, .extra-photos__photo img, .snail__photo img').forEach(img => {
     img.style.opacity = '0'; img.style.transition = 'opacity 0.8s ease';
     if (img.complete) { img.style.opacity = '1'; }
     else { img.addEventListener('load', () => { img.style.opacity = '1'; }); img.addEventListener('error', () => { img.style.opacity = '0.5'; }); }
@@ -180,7 +180,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   const standaloneSelectors = [
     '.chubynskyi__photo',
     '.chubynskyi__khutir-photo',
-    '.landscape__photo'
+    '.landscape__photo',
+    '.snail__photo'
   ];
   standaloneSelectors.forEach(sel => {
     document.querySelectorAll(sel).forEach(photo => {
