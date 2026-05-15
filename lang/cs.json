@@ -3,23 +3,19 @@
   "nav.landscape": "Krajina",
   "nav.heritage": "Dědictví",
   "nav.about": "O projektu",
-
   "hero.title": "Prastaré duby Čubynského",
   "hero.subtitle": "Živé biokulturní dědictví lesostepě Středního Podněpří",
   "hero.scroll": "Scrollujte a prozkoumejte",
-
   "intro.heading": "Fragmenty živé krajiny",
-  "intro.p1": "Celostátně významná krajinná rezervace „Chutir Čubynskoho" se nachází v obci Čubynske v Boryspilském okrese Kyjevské oblasti, pouhých 15 km od Kyjeva. Založena v roce 1994, rezervace zahrnuje unikátní území starého dubového háje — jednoho z mála dochovaných fragmentů historické lesostepní krajiny Středního Podněpří.",
+  "intro.p1": "Celostátně významná krajinná rezervace „Chutir Čubynskoho\" se nachází v obci Čubynske v Boryspilském okrese Kyjevské oblasti, pouhých 15 km od Kyjeva. Založena v roce 1994, rezervace zahrnuje unikátní území starého dubového háje — jednoho z mála dochovaných fragmentů historické lesostepní krajiny Středního Podněpří.",
   "intro.p2": "Prastaré duby ve stáří přibližně 200–300 let jsou živými svědky přírodní a kulturní historie tohoto území. Přežily v podmínkách intenzivního antropogenního tlaku a rychlé urbanizace okolí Kyjeva a zůstávají důležitými prvky biokulturního dědictví regionu.",
   "intro.p3": "Od roku 1975 v obci Čubynske působí Ústav chovu a genetiky zvířat pojmenovaný po M. V. Zubcovi Národní akademie agrárních věd. Vědci tohoto ústavu podporují iniciativy v oblasti environmentálního vzdělávání a propagace přírodního dědictví rezervace, čímž přispívají k formování ekologické kultury a pozornosti k ochraně místních přírodních krajin.",
-
   "gallery.heading": "Výstava",
   "gallery.phrase1": "Fragmenty živé krajiny",
   "gallery.phrase2": "Paměť prastarého lesa",
   "gallery.phrase3": "Biokulturní kontinuita",
   "gallery.phrase4": "Ticho mezi staletími",
   "gallery.phrase5": "Kořeny vytrvalosti",
-
   "gallery.cap1": "Prastarý dub v zimním světle",
   "gallery.cap2": "Koruna prorážející ranní mlhou",
   "gallery.cap3": "Textura kůry — staletí růstu",
@@ -32,31 +28,25 @@
   "gallery.cap10": "Pozdní léto, zlatá hodina",
   "gallery.cap11": "Mech a lišejník na prastaré kůře",
   "gallery.cap12": "Nejstarší dub rezervace",
-
   "carousel.spring": "Jaro pod prastarými korunami",
   "carousel.summer": "Letní ticho pradávného dubového háje",
   "carousel.autumn": "Podzimní světlo teplého zlata",
   "carousel.winter": "Zimní grafika dubových siluet",
-
   "landscape.heading": "Lesostep Středního Podněpří",
   "landscape.p1": "Lesostep Středního Podněpří je jednou z charakteristických historických krajin Ukrajiny — prostorem interakce otevřených stepních území a listnatých lesů. Právě zde se po staletí formovaly přírodní a kulturní rysy regionu, kde příroda a lidská paměť existovaly v úzké vzájemné souvislosti.",
   "landscape.p2": "Prastaré duby Čubynského jsou pozůstatky dávných přírodních ekosystémů, které kdysi pokrývaly mnohem širší území Levobřeží Dněpru. Dnes jsou uchovávány jako vzácné fragmenty historické krajiny uprostřed zemědělských ploch, dopravní infrastruktury a příměstské zástavby Kyjevské aglomerace.",
   "landscape.p3": "Tyto stromy nejsou jen důležitými přírodními objekty, ale také symboly vytrvalosti, odolnosti a kontinuity krajinné paměti.",
-
   "landscape.cap1": "Chutir Čubynskoho — území historického statku",
-
   "chubynskyi.heading": "Pavlo Čubynskyj a paměť krajiny",
   "chubynskyi.p1": "Území rezervace je úzce spojeno se jménem Pavla Platonovyče Čubynskéhо (1839–1884) — významného ukrajinského etnografa, folkloristy, veřejného činitele a autora slov Státní hymny Ukrajiny.",
   "chubynskyi.p2": "V roce 1861 otec Pavla Čubynského, Platon Ivanovyč Čubynskyj, zakoupil pozemek poblíž Boryspilu, kde byl založen statek Čubynských. Brzy se zde objevil dům, usedlost a zahrada a samotný statek se stal důležitým střediskem ukrajinského intelektuálního a kulturního života druhé poloviny 19. století.",
   "chubynskyi.p3": "V domě Čubynských se scházeli představitelé ukrajinské inteligence, mezi nimiž byli Mychajlo Staryckyj, Mykola Lysenko, Mychajlo Drahomanov, Pavlo Žyteckyj, Fedir Vovk a další osobnosti ukrajinské kultury a vědy.",
   "chubynskyi.p4": "Dnes prastaré duby rezervace zůstávají živými svědky historie tohoto území — přírodní pamětí místa, kde se spojila krajina, kultura a ukrajinská identita.",
-
   "ack.heading": "Poděkování",
   "ack.p1": "Tento projekt je pokračováním iniciativ v oblasti environmentálního vzdělávání a propagace přírodního dědictví obce Čubynske.",
-  "ack.p2": "V prosinci 2024 získala iniciativní skupina Ústavu chovu a genetiky zvířat pojmenovaného po M. V. Zubcovi Národní akademie agrárních věd pod vedením Oksany Ščerbakové podporu v rámci programu Grants for Development of Small Community Projects pro realizaci projektu „Environmental Education for the Community of Chubynske Village (Prystolychna Community, Kyiv Region)".",
+  "ack.p2": "V prosinci 2024 získala iniciativní skupina Ústavu chovu a genetiky zvířat pojmenovaného po M. V. Zubcovi Národní akademie agrárních věd pod vedením Oksany Ščerbakové podporu v rámci programu Grants for Development of Small Community Projects pro realizaci projektu „Environmental Education for the Community of Chubynske Village (Prystolychna Community, Kyiv Region)\".",
   "ack.p3": "Upřímně děkujeme meziuniverzitní platformě AgriSciences Platform, České zemědělské univerzitě v Praze (ČZU) a Vládě České republiky za podporu rozvoje environmentálního vzdělávání ukrajinských komunit a podporu místních iniciativ v oblasti přírodního a biokulturního dědictví.",
   "ack.p4": "Tento první krok se stal důležitým začátkem další práce na projektech ekologické komunikace a digitální reprezentace přírodního dědictví Čubynského.",
-
   "footer.title": "Prastaré duby Čubynského",
   "footer.subtitle": "Živé biokulturní dědictví lesostepě Středního Podněpří",
   "footer.exhibition": "Digitální environmentální expozice / 2026",

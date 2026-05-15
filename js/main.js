@@ -71,14 +71,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (scrollInd) window.addEventListener('scroll', () => { scrollInd.style.opacity = window.scrollY > 100 ? '0' : ''; }, { passive: true });
 
   // --- Image lazy fade-in ---
-  document.querySelectorAll('.gallery__photo img, .landscape__photo img, .chubynskyi__photo img').forEach(img => {
+  document.querySelectorAll('.landscape__photo img, .chubynskyi__photo img, .chubynskyi__khutir-photo img, .measurements__photo img, .extra-photos__photo img').forEach(img => {
     img.style.opacity = '0'; img.style.transition = 'opacity 0.8s ease';
     if (img.complete) { img.style.opacity = '1'; }
     else { img.addEventListener('load', () => { img.style.opacity = '1'; }); img.addEventListener('error', () => { img.style.opacity = '0.5'; }); }
   });
 
   // ============================================================
-  // LIGHTBOX for carousel photos
+  // LIGHTBOX — for all photos (carousel, grouped, standalone)
   // ============================================================
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
@@ -86,9 +86,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const lightboxPrev = document.getElementById('lightbox-prev');
   const lightboxNext = document.getElementById('lightbox-next');
 
-  let currentCarouselImages = [];
+  let currentLightboxImages = [];
   let currentImageIndex = 0;
 
+  // Get unique images from a carousel section
   function getUniqueCarouselImages(carouselSection) {
     const slides = carouselSection.querySelectorAll('.scroll-gallery__slide:not(.scroll-gallery__slide--placeholder)');
     const seen = new Set();
@@ -100,11 +101,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     return images;
   }
 
-  function openLightbox(carouselSection, clickedSrc) {
-    currentCarouselImages = getUniqueCarouselImages(carouselSection);
-    currentImageIndex = currentCarouselImages.indexOf(clickedSrc);
+  // Get images from a grouped container
+  function getGroupImages(container) {
+    const images = [];
+    container.querySelectorAll('img').forEach(img => { images.push(img.src); });
+    return images;
+  }
+
+  // Open lightbox with a set of images (or single image)
+  function openLightboxWith(images, clickedSrc) {
+    currentLightboxImages = images;
+    currentImageIndex = currentLightboxImages.indexOf(clickedSrc);
     if (currentImageIndex === -1) currentImageIndex = 0;
-    lightboxImg.src = currentCarouselImages[currentImageIndex];
+    lightboxImg.src = currentLightboxImages[currentImageIndex];
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
     updateLightboxArrows();
@@ -117,12 +126,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function showImage(index) {
-    if (currentCarouselImages.length === 0) return;
-    currentImageIndex = (index + currentCarouselImages.length) % currentCarouselImages.length;
+    if (currentLightboxImages.length === 0) return;
+    currentImageIndex = (index + currentLightboxImages.length) % currentLightboxImages.length;
     lightboxImg.style.opacity = '0';
     lightboxImg.style.transform = 'scale(.96)';
     setTimeout(() => {
-      lightboxImg.src = currentCarouselImages[currentImageIndex];
+      lightboxImg.src = currentLightboxImages[currentImageIndex];
       lightboxImg.style.opacity = '1';
       lightboxImg.style.transform = 'scale(1)';
     }, 200);
@@ -130,17 +139,55 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function updateLightboxArrows() {
-    const hasMultiple = currentCarouselImages.length > 1;
+    const hasMultiple = currentLightboxImages.length > 1;
     lightboxPrev.style.display = hasMultiple ? '' : 'none';
     lightboxNext.style.display = hasMultiple ? '' : 'none';
   }
 
-  // Attach click to carousel slides
+  // --- Carousel slides (grouped, with arrows) ---
   document.querySelectorAll('.scroll-gallery').forEach(carousel => {
     carousel.querySelectorAll('.scroll-gallery__slide:not(.scroll-gallery__slide--placeholder)').forEach(slide => {
       slide.addEventListener('click', () => {
         const img = slide.querySelector('img');
-        if (img) openLightbox(carousel, img.src);
+        if (img) openLightboxWith(getUniqueCarouselImages(carousel), img.src);
+      });
+    });
+  });
+
+  // --- Measurement photos (grouped, with arrows) ---
+  document.querySelectorAll('.measurements__grid').forEach(grid => {
+    grid.querySelectorAll('.measurements__photo').forEach(photo => {
+      photo.style.cursor = 'pointer';
+      photo.addEventListener('click', () => {
+        const img = photo.querySelector('img');
+        if (img) openLightboxWith(getGroupImages(grid), img.src);
+      });
+    });
+  });
+
+  // --- Extra photos (grouped, with arrows) ---
+  document.querySelectorAll('.extra-photos__grid').forEach(grid => {
+    grid.querySelectorAll('.extra-photos__photo').forEach(photo => {
+      photo.style.cursor = 'pointer';
+      photo.addEventListener('click', () => {
+        const img = photo.querySelector('img');
+        if (img) openLightboxWith(getGroupImages(grid), img.src);
+      });
+    });
+  });
+
+  // --- Standalone photos (no arrows) ---
+  const standaloneSelectors = [
+    '.chubynskyi__photo',
+    '.chubynskyi__khutir-photo',
+    '.landscape__photo'
+  ];
+  standaloneSelectors.forEach(sel => {
+    document.querySelectorAll(sel).forEach(photo => {
+      photo.style.cursor = 'pointer';
+      photo.addEventListener('click', () => {
+        const img = photo.querySelector('img');
+        if (img) openLightboxWith([img.src], img.src);
       });
     });
   });

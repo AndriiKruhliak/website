@@ -54,6 +54,15 @@ const I18n = {
       }
     });
 
+    // Handle elements needing innerHTML (for non-breaking spaces, links, etc.)
+    const htmlElements = document.querySelectorAll('[data-i18n-html]');
+    htmlElements.forEach(el => {
+      const key = el.getAttribute('data-i18n-html');
+      if (dict[key]) {
+        el.innerHTML = dict[key];
+      }
+    });
+
     // Update html lang attribute
     document.documentElement.lang = this.currentLang === 'uk' ? 'uk' : 
                                      this.currentLang === 'cs' ? 'cs' : 'en';
